@@ -5,6 +5,7 @@ import lombok.Value;
 @Value
 public class PaymentFilters {
     String id;
+    String invoiceId;
     String status;
     Double amountPayable;
 }
