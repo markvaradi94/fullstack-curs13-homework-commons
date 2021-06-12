@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="payments-api-client" />
+        <module name="invoice-api-client" />
+        <module name="invoice-service" />
+        <module name="curs13-homework-app-commons" />
+        <module name="curs13-homework-api-gateway" />
+        <module name="curs13-homework-discovery-server" />
+        <module name="payments-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="curs13-homework-discovery-servcer" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="curs13-homework-api-gateway" options="-parameters" />
+      <module name="curs13-homework-discovery-servcer" options="-parameters" />
+      <module name="curs13-homework-discovery-server" options="-parameters" />
+      <module name="invoice-api-client" options="" />
+      <module name="invoice-service" options="-parameters" />
+      <module name="payments-service" options="-parameters" />
+    </option>
+  </component>
+</project>
